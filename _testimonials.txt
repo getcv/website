@@ -1,0 +1,18 @@
+<section class='clients'>
+  <h4 class="title">What our clients say</h4>
+  <figure>
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+      <p class="text">I wish I would have thought of it first. I can't say enough about GetCV. I like GetCV more and
+        more each day because it makes my life a lot easier.</p>
+    </blockquote>
+    <figcaption class="text">Malory Z.<cite> — Creative Director, Co/Co</cite></figcaption>
+  </figure>
+  <figure>
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+      <p class="text">Thank you for making it painless, pleasant and most of all hassle free! GetCV was worth a fortune
+        to my company.</p>
+    </blockquote>
+    <figcaption class="text">Issi G.<cite> — Technical team lead, Comp Group</cite>
+    </figcaption>
+  </figure>
+</section>

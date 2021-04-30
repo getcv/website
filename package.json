@@ -1,0 +1,33 @@
+{
+  "name": "getcv-landign-page",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "parcel serve ./index.html",
+    "build": "parcel build 'index.html'",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "browserslist": "> 0.1%",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getcv/landing-page.git"
+  },
+  "author": "Becomes.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getcv/landing-page/issues"
+  },
+  "homepage": "https://github.com/getcv/landing-page#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1",
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^4.1.1",
+    "node-sass": "^5.0.0"
+  }
+}

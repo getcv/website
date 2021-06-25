@@ -5,8 +5,8 @@
   "main": "dist/index.html",
   "scripts": {
     "dev": "parcel serve ./index.html",
-    "build": "parcel build 'index.html'",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "build": "parcel build 'index.html' --public-url ./",
+    "deploy": "cd dist && git add --all && git commit -m \"Deploy on gh-pages updated\" && git push origin gh-pages && cd .."
   },
   "browserslist": "> 0.1%",
   "repository": {

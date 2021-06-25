@@ -8,4 +8,13 @@ imgLoad.on("always", function (instance) {
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
   });
+
+  document.querySelector('.header--cta').addEventListener("click", () => {
+    scroll.scrollTo(document.querySelector('#mc-embedded-subscribe-form'), {
+      offset: -200,
+      callback: () => {
+        document.querySelector('#mce-EMAIL').focus();
+      }
+    })
+  })
 });

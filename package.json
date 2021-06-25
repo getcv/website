@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel serve ./index.html",
     "build": "parcel build 'index.html' --public-url ./",
-    "deploy": "cd dist && git add --all && git commit -m \"Deploy on gh-pages updated\" && git push origin gh-pages && cd .."
+    "deploy": "cd dist && git add --all -f && git commit -m \"Deploy on gh-pages updated\" && git push origin gh-pages -f && cd .."
   },
   "browserslist": "> 0.1%",
   "repository": {
